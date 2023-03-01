@@ -127,9 +127,10 @@ td.user a p{
     margin-bottom: 0.2rem;
 }
 td button.remove{
+    cursor: pointer;
     border: none;
     background:none;
     color: red;
-    cursor: pointer;
+    
 }
 
