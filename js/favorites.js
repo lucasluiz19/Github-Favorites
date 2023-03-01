@@ -9,12 +9,12 @@ export class Favorites{
             login:'lucasluiz19',
             name:'lucas luiz ',
             public_repos: '22',
-            followers: '10'
+            followers: '321'
           },
           {
             login:'diego3g',
             name:'diego fernandes',
-            public_repos:'45',
+            public_repos:'1234',
             followers:'70'
           }
         ]
