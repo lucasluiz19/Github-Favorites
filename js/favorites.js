@@ -20,6 +20,14 @@ export class Favorites{
         ]
         
     }
+
+    delete(user){
+        const filteredEntries = this.entries.filter(entry =>{
+            return true
+        })
+        console.log(filteredEntries)
+    }
+
 }
 
 export class FavoritesView extends Favorites{
@@ -52,7 +60,12 @@ export class FavoritesView extends Favorites{
 
         row.querySelector('.followers').textContent=`${user.followers}` 
 
-
+        row.querySelector('.remove').onclick=() =>{
+            const isOk =confirm('tem certeza que deseja deletar?')
+            if (isOk) {
+                this.delete(user)
+            }
+        }
 
             this.tbody.append(row)
         })
