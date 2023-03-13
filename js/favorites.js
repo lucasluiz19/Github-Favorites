@@ -99,10 +99,7 @@ export class FavoritesView extends Favorites{
         }
 
             this.tbody.append(row)
-        })
-        
-      
-      
+        }) 
     }
 
     createRow(){
